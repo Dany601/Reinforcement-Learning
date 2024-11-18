@@ -54,7 +54,7 @@ El desempeño del agente fue evaluado midiendo:
 
 ## Instrucciones para Ejecutar el Proyecto
 1. Clonar este repositorio:
-        git clone https://github.com/tu_usuario/tu_repositorio.git
+        git clone https://github.com/Dany601/Reinforcement-Learning
 2. Abrir el archivo en Google Colab o cualquier entorno local con Python.
 3. Instalar las dependencias necesarias
         pip install numpy matplotlib
