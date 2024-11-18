@@ -1,11 +1,11 @@
-#Proyecto de Aprendizaje por Refuerzo - Navegación de un Laberinto con Q-Learning
+# Proyecto de Aprendizaje por Refuerzo - Navegación de un Laberinto con Q-Learning
 Este proyecto aplica Q-Learning, un algoritmo de aprendizaje por refuerzo, para entrenar a un agente que navega en un laberinto de 100x100 hasta alcanzar un objetivo definido. Se utiliza Python y bibliotecas como NumPy para implementar y probar el modelo.
 
-##Objetivo
+## Objetivo
 Entrenar un agente inteligente para que resuelva un laberinto definido, aplicando conceptos de aprendizaje por refuerzo y visualizando el camino óptimo hacia el objetivo.
 
-##Contenido del Proyecto
-###1. Configuración del Laberinto
+## Contenido del Proyecto
+### 1. Configuración del Laberinto
 Se diseñó un laberinto de tamaño 100x100 representado mediante una matriz de NumPy, donde cada celda tiene el siguiente significado:
 
 -**0**: Camino libre.
@@ -13,7 +13,7 @@ Se diseñó un laberinto de tamaño 100x100 representado mediante una matriz de 
 -**2**: Celda objetivo.
 El laberinto se generó con obstáculos aleatorios, asegurando que exista al menos un camino hacia el objetivo.
 
-###2. Parámetros del Modelo
+### 2. Parámetros del Modelo
 El agente puede realizar cuatro acciones:
 
 -**Arriba**: Movimiento hacia la celda superior.
@@ -26,23 +26,23 @@ Parámetros utilizados para el algoritmo de Q-Learning:
 -**Alpha** (tasa de aprendizaje): 0.1
 -**Gamma** (factor de descuento): 0.9
 -**Epsilon** (exploración-explotación): 0.2
-###3. Implementación en Python
+### 3. Implementación en Python
 El proyecto se desarrolló utilizando Python en Google Colab, empleando las siguientes herramientas:
 
 -**NumPy**: Para la creación y manipulación del laberinto.
 -**Matplotlib**: Para la visualización gráfica del recorrido del agente.
 -**Q-Learning**: Implementado desde cero con una tabla Q para almacenar las recompensas aprendidas.
-####Pasos del Algoritmo
+#### Pasos del Algoritmo
 1.Inicialización del laberinto y los valores Q.
 2.Entrenamiento del agente durante 1000 episodios, ajustando sus políticas según las recompensas obtenidas.
 3.Evaluación del agente en el laberinto entrenado, mostrando el recorrido desde el punto de inicio hasta la meta.
-###4. Resultados y Visualización
+### 4. Resultados y Visualización
 1.Camino aprendido: El agente encontró una trayectoria óptima para alcanzar la meta desde un punto inicial predeterminado.
 2.Visualización gráfica: Se generó un gráfico del laberinto mostrando:
 -**Las celdas visitadas**.
 -**El camino final seguido por el agente**.
 -**El objetivo alcanzado**.
-###5. Evaluación del Modelo
+### 5. Evaluación del Modelo
 El desempeño del agente fue evaluado midiendo:
 
 -**Número de pasos requeridos para alcanzar la meta**.
