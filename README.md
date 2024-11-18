@@ -50,7 +50,7 @@ El desempeño del agente fue evaluado midiendo:
 - **Tasa de éxito en diferentes configuraciones del laberinto**.
 - **Convergencia del algoritmo analizando la evolución de la tabla Q**.
 ## Enlaces de Referencia
-- **Colab Notebook**: Accede al proyecto en Google Colab
+- **Colab Notebook**: [Accede al proyecto en Google Colab](https://colab.research.google.com/drive/12FNrzMPZjzK_xPW-vf1gH492r_l32rIM#scrollTo=05ym1zUgJo5B)
 
 ## Instrucciones para Ejecutar el Proyecto
 1. Clonar este repositorio:
