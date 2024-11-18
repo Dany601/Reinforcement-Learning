@@ -1,4 +1,4 @@
-# Proyecto de Aprendizaje por Refuerzo - Navegación de un Laberinto con Q-Learning
+# Proyecto de Aprendizaje por Refuerzo - **Navegación de un Laberinto con Q-Learning**
 Este proyecto aplica Q-Learning, un algoritmo de aprendizaje por refuerzo, para entrenar a un agente que navega en un laberinto de 100x100 hasta alcanzar un objetivo definido. Se utiliza Python y bibliotecas como NumPy para implementar y probar el modelo.
 
 ## Objetivo
