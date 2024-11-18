@@ -20,6 +20,7 @@ El agente puede realizar cuatro acciones:
 - **Abajo**: Movimiento hacia la celda inferior.
 - **Izquierda**: Movimiento hacia la celda izquierda.
 - **Derecha**: Movimiento hacia la celda derecha.
+
 Los movimientos son validados para garantizar que el agente no salga de los límites del laberinto ni atraviese obstáculos.
 Parámetros utilizados para el algoritmo de Q-Learning:
 
